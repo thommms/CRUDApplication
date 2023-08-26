@@ -1,4 +1,4 @@
 .DS_Store
-gradle/wrapper
-.gradle
-.idea
+/.idea
+/.gradle
+HELP.md
