@@ -7,9 +7,7 @@ import lombok.*;
 @Table(name ="Books")
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
-@Setter
-@ToString
+@Data
 public class Book {
 
     @Id
@@ -19,12 +17,4 @@ public class Book {
     private String title;
 
     private String author;
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public Long getId() {
-        return id;
-    }
 }
